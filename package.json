@@ -1,0 +1,12 @@
+{
+  "name": "Hanayo",
+  "version": "1.0.0",
+  "description": "hanayo!! my nyuckn wife",
+  "main": "bot.js",
+  "author": "max",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "winston": "^3.1.0"
+  }
+}
