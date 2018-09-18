@@ -32,4 +32,9 @@ client.on('message', message => {
     else if(message.content.toLowerCase().includes('rice')) 
 	message.channel.send("pwease " + message.author + "! " + "pwease share some of your wice!");
 
+if(message.content.toLowerCase() === 'ur') 
+        message.channel.send(message.author + ", i hope your next scout is great!");
+    else if(message.content.toLowerCase().includes('ur')) 
+	message.channel.send(message.author + ", i hope your next scout is great!");
+
 });
