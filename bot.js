@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDkwMjUwMjYyMzIyMzQ4MDMz.Dn2nDw.jYwEaO0xsUZGbzb048uNyL4AopU'; // Token goes here.
+const token = ''; // Token goes here.
 
  
 client.login(token); // login the bot with your token.
