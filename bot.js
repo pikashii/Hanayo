@@ -17,7 +17,7 @@ client.on('message', message => {
     else if(message.content.toLowerCase().includes(' rin')) 
 	message.channel.send("i love my furry gf!");
 
-    if(message.content.toLowerCase() === 'maki') 
+    if(message.content.toLowerCase() === ' maki') 
         message.channel.send("i love my intellectual gf!");
     else if(message.content.toLowerCase().includes(' maki')) 
 	message.channel.send("i love my intellectual gf!");
