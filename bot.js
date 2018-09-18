@@ -5,7 +5,7 @@ const token = 'NDkwMjUwMjYyMzIyMzQ4MDMz.Dn2nDw.jYwEaO0xsUZGbzb048uNyL4AopU'; // 
  
 client.login(token); // login the bot with your token.
  
-client.on('message', message => { // This is where we will handle all message events. Aka, the commands that will trigger the bot.
+client.on('message', message => { 
  
     if(message.content.toLowerCase() === 'hanayo') 
         message.channel.send("i love you " + message.author + "!");
@@ -27,6 +27,9 @@ client.on('message', message => { // This is where we will handle all message ev
     else if(message.content.toLowerCase().includes('nozomi')) 
 	message.channel.send("thanos idol");
 
-// etc.... you get the idea.
+    if(message.content.toLowerCase() === 'rice') 
+        message.channel.send("pwease " + message.author + "!" + "pwease give me some rice!");
+    else if(message.content.toLowerCase().includes('rice')) 
+	message.channel.send("pwease " + message.author + "!" + "pwease give me some rice!");
 
 });
