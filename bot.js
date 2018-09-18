@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDkwMjUwMjYyMzIyMzQ4MDMz.Dn3Msg.zH18dbHOowpVX2y5iTrkEIFyHbU'; // Token goes here.
+const token = ''; // Token goes here.
 
  
 client.login(token); // login the bot with your token.
@@ -32,9 +32,12 @@ client.on('message', message => {
     else if(message.content.toLowerCase().includes('rice')) 
 	message.channel.send("pwease " + message.author + "! " + "pwease share some of your wice!");
 
-if(message.content.toLowerCase() === 'ur') 
-        message.channel.send(message.author + ", i hope your next scout is great!");
+if(message.content.toLowerCase() === 'scout') 
+        message.channel.send(message.author + ", i hope you get a ur!");
     else if(message.content.toLowerCase().includes('ur')) 
-	message.channel.send(message.author + ", i hope your next scout is great!");
+	message.channel.send(message.author + ", i hope you get a ur!!");
+
+if(message.content.toLowerCase() === 'thanos car') 
+        message.channel.send("does thanos car is fuck?");
 
 });
