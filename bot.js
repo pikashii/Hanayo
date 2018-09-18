@@ -34,7 +34,7 @@ client.on('message', message => {
 
 if(message.content.toLowerCase() === 'scout') 
         message.channel.send(message.author + ", i hope you get a ur!");
-    else if(message.content.toLowerCase().includes('ur')) 
+    else if(message.content.toLowerCase().includes('scout')) 
 	message.channel.send(message.author + ", i hope you get a ur!!");
 
 if(message.content.toLowerCase() === 'thanos car') 
