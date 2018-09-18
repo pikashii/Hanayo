@@ -13,14 +13,14 @@ client.on('message', message => {
 	message.channel.send("i love you " + message.author + "!");
 
     if(message.content.toLowerCase() === 'rin') 
-        message.channel.send("i love rin-chan " + "!");
+        message.channel.send("i love my furry gf " + "!");
     else if(message.content.toLowerCase().includes('rin')) 
-	message.channel.send("i love rin-chan " + "!");
+	message.channel.send("i love my furry gf " + "!");
 
     if(message.content.toLowerCase() === 'maki') 
-        message.channel.send("i love maki-chan " + "!");
+        message.channel.send("i love my intellectual gf " + "!");
     else if(message.content.toLowerCase().includes('maki')) 
-	message.channel.send("i love maki-chan " + "!");
+	message.channel.send("i love my intellectual gf " + "!");
 
     if(message.content.toLowerCase() === 'nozomi') 
         message.channel.send("thanos idol");
