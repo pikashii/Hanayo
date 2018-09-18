@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDkwMjUwMjYyMzIyMzQ4MDMz.Dn3Msg.zH18dbHOowpVX2y5iTrkEIFyHbU'; // Token goes here.
+const token = ''; // Token goes here.
 
  
 client.login(token); // login the bot with your token.
@@ -13,14 +13,14 @@ client.on('message', message => {
 	message.channel.send("i love you " + message.author + "!");
 
     if(message.content.toLowerCase() === 'rin') 
-        message.channel.send("i love my furry gf " + "!");
+        message.channel.send("i love my furry gf!");
     else if(message.content.toLowerCase().includes('rin')) 
-	message.channel.send("i love my furry gf " + "!");
+	message.channel.send("i love my furry gf!");
 
     if(message.content.toLowerCase() === 'maki') 
-        message.channel.send("i love my intellectual gf " + "!");
+        message.channel.send("i love my intellectual gf!");
     else if(message.content.toLowerCase().includes('maki')) 
-	message.channel.send("i love my intellectual gf " + "!");
+	message.channel.send("i love my intellectual gf!");
 
     if(message.content.toLowerCase() === 'nozomi') 
         message.channel.send("thanos idol");
