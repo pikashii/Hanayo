@@ -14,12 +14,12 @@ client.on('message', message => {
 
     if(message.content.toLowerCase() === 'rin') 
         message.channel.send("i love my furry gf!");
-    else if(message.content.toLowerCase().includes(' rin ')) 
+    else if(message.content.toLowerCase().includes('rin')) 
 	message.channel.send("i love my furry gf!");
 
     if(message.content.toLowerCase() === 'maki') 
         message.channel.send("i love my intellectual gf!");
-    else if(message.content.toLowerCase().includes(' maki ')) 
+    else if(message.content.toLowerCase().includes('maki')) 
 	message.channel.send("i love my intellectual gf!");
 
     if(message.content.toLowerCase() === 'nozomi') 
@@ -34,7 +34,7 @@ client.on('message', message => {
 
 if(message.content.toLowerCase() === 'scout') 
         message.channel.send(message.author + ", i hope you get a ur!");
-    else if(message.content.toLowerCase().includes(' scout ')) 
+    else if(message.content.toLowerCase().includes('scout')) 
 	message.channel.send(message.author + ", i hope you get a ur!!");
 
 if(message.content.toLowerCase() === 'thanos car') 
@@ -42,7 +42,7 @@ if(message.content.toLowerCase() === 'thanos car')
 
 if(message.content.toLowerCase() === 'umi') 
         message.channel.send("ocean man, take me by the hand");
-    else if(message.content.toLowerCase().includes(' umi ')) 
+    else if(message.content.toLowerCase().includes('umi')) 
 	message.channel.send("ocean man, take me by the hand");
 
 });
