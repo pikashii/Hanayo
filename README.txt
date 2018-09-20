@@ -17,4 +17,4 @@ Hanayo will additionally respond to the following phrases:
 If you'd like to have Hanayo generate an invite link, send the following message:
 - x3 invite
 
-If there are any issues with Hanayo spamming messages or responding when she shouldn't, please report them to me in the issues tab and I'll fix it as soon as possible
+If there are any issues with Hanayo spamming messages or responding when she shouldn't, please report them to me in the issues tab and I'll fix it as soon as possible.
